@@ -1,8 +1,12 @@
 .MuiListItem-root{
     justify-content: center;
+    align-items: center;
 }
+
 
 .MuiStack-root{
     background-color: #040404;
     color: #F7F7FF;
+    text-align: center;
+    padding: 30px;
 }

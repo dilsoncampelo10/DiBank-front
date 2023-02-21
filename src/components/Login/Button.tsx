@@ -7,7 +7,11 @@ interface ButtonPrimary {
 export const ButtonPrimary = ({content}:ButtonPrimary) => {
     return (
         <div>
-            <Button variant="contained">{content}</Button>
+            <Button onClick={welcome} variant="contained">{content}</Button>
         </div>
     )
+}
+
+const welcome = () =>{
+    alert('Bem-vindo')
 }

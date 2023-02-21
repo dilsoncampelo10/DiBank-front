@@ -1,9 +1,10 @@
 
-
 import './App.css';
 
 import { Layout } from './components/layouts/Layout';
-import { ButtonPrimary } from './components/Login/Button';
+
+import { Login } from './components/Login/Login';
+
 
 
 
@@ -11,7 +12,9 @@ function App() {
   return (
     <>
       <Layout>
-          <ButtonPrimary content='Login'/>
+        
+        <Login/>
+         
       </Layout>
     </>
   );
